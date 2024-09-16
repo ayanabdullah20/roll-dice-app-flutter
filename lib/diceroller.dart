@@ -23,7 +23,7 @@ class _DicerollerState extends State<Diceroller>  {
             const SizedBox(height: 10,),
             TextButton(
               style: TextButton.styleFrom(
-                foregroundColor: Colors.black,
+                foregroundColor: const Color.fromARGB(255, 255, 255, 255),
                 textStyle: const TextStyle(fontSize: 28),
               ),
               onPressed: () {
